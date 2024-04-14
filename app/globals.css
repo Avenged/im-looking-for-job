@@ -61,6 +61,17 @@ body {
   background-color: #FDA7DF;
 }
 
+.badge-horizontal-scroll::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.badge-horizontal-scroll {
+  cursor:grab;
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
 @layer utilities {
   .text-balance {
     text-wrap: balance;

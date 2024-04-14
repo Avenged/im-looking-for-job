@@ -22,9 +22,9 @@ export default function Offer({ backgroundColor }) {
             <div className="flex items-center justify-between">
                 <div className="flex gap-[8px]">
                     <BadgeHorizontalScroll>
-                        <span className="badge badge-primary text-nowrap text-gray-700">Full time</span>
-                        <span className="badge badge-secondary text-nowrap text-gray-700">Middle</span>
-                        <span className="badge badge-primary text-nowrap text-gray-700">Javascript</span>
+                        <span className="badge badge-primary select-none text-nowrap text-gray-700">Full time</span>
+                        <span className="badge badge-secondary select-none text-nowrap text-gray-700">Middle</span>
+                        <span className="badge badge-primary select-none text-nowrap text-gray-700">Javascript</span>
                     </BadgeHorizontalScroll>
                 </div>
                 <div className="flex gap-[8px]">
