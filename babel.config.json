@@ -1,0 +1,6 @@
+{
+	"plugins": [
+		["module:@preact/signals-react-transform", { "mode": "all" }]
+	],
+	"presets": ["@babel/preset-react"]
+}
